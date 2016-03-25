@@ -1,0 +1,15 @@
+﻿Build started 2/9/2016 11:27:41 PM.
+     1>Project "E:\CSE687\Proj1\Project1\SemiExp\SemiExp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I../../Tokenizer /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D zTEXT_SemiExp /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\SemiExp.pdb" /Gd /TP /analyze- /errorReport:prompt SemiExp.cpp
+         SemiExp.cpp
+     1>e:\cse687\proj1\project1\semiexp\semiexp.cpp(86): warning C4018: '<': signed/unsigned mismatch
+     1>e:\cse687\proj1\project1\semiexp\semiexp.cpp(124): warning C4018: '<': signed/unsigned mismatch
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"E:\CSE687\Proj1\Project1\Debug\SemiExp.lib" /NOLOGO Debug\SemiExp.obj
+         SemiExp.vcxproj -> E:\CSE687\Proj1\Project1\Debug\SemiExp.lib
+     1>Done Building Project "E:\CSE687\Proj1\Project1\SemiExp\SemiExp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.90

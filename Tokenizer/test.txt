@@ -1,0 +1,39 @@
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <unordered_map>
+#include <exception>
+
+using namespace Scanner;
+
+int y = [] (int first, int second)
+{
+    return first + second;
+};
+int main()
+{
+
+	//Tokenizer testing
+	std::string fileSpec = "../Tokenizer/test.txt";
+
+	std::ifstream in(fileSpec);
+	if (!in.good())
+	{
+		std::cout << "\n  can't open " << fileSpec << "\n\n";
+		return 1;
+	}
+	else
+		std::cout << "\n Read file successfull!" << "\n";
+	Toker toker;
+	toker.attach(&in);
+	do
+	{
+		std::string tok = toker.getTok();
+		if (tok == "\n")
+			tok = "newline";
+		std::cout << "\n -- " << tok;
+	} while (in.good());
+	std::cout << "\n\n";
+
+	toker.reset();		// reset static member in consumestate class
+}

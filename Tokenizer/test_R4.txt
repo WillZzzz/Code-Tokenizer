@@ -1,0 +1,17 @@
+Test Requirement 4
+
+
+int y = [] (int first, int second)
+{
+    return first + second;
+};
+char a = 'achar';
+// The following is a quoted string
+string s = "astring";
+// And a quoted string with quote inside
+string s_2 = "string \"inside\" another"; 
+// This is a CPP commment
+/* This is a C comment */
+int c = 2;
+c += 3;
+c++

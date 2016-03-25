@@ -1,0 +1,13 @@
+﻿Build started 2/9/2016 11:27:40 PM.
+     1>Project "E:\CSE687\Proj1\Project1\Tokenizer\Tokenizer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D zTEST_TOKENIZER /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\Tokenizer.pdb" /Gd /TP /analyze- /errorReport:prompt Tokenizer.cpp
+         Tokenizer.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"E:\CSE687\Proj1\Project1\Debug\Tokenizer.lib" /NOLOGO Debug\Tokenizer.obj
+         Tokenizer.vcxproj -> E:\CSE687\Proj1\Project1\Debug\Tokenizer.lib
+     1>Done Building Project "E:\CSE687\Proj1\Project1\Tokenizer\Tokenizer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.55
